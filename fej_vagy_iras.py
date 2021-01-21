@@ -118,7 +118,6 @@ for i in range(250):
 
 
 for j in range(250):
-    #print(ezres_lista[j])
     if ezres_lista[j][0] == 'F' and ezres_lista[j][1] == 'F' and ezres_lista[j][2] == 'F' and ezres_lista[j][3] == 'F':
         fej_kovette += 1
     if ezres_lista[j][0] == 'F' and ezres_lista[j][1] == 'F' and ezres_lista[j][2] == 'F' and ezres_lista[j][3] == 'I':
@@ -129,5 +128,3 @@ dobasok.write(f'FFFF: {fej_kovette},FFFI: {iras_kovette}\n')
 
 for k in range(250):
     dobasok.write(f'{ezres_lista[k][0]}{ezres_lista[k][1]}{ezres_lista[k][2]}{ezres_lista[k][3]} ')
-
-print(fej_kovette, iras_kovette)
